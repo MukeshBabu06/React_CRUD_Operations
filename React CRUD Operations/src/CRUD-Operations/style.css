@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 70px;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: "Poppins", sans-serif;
+}
+
+.Feesman{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Feesman h1{
+    margin: 15px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.Feesman Form{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 15px;
+
+}
+.Feesman Form .div{
+    display: flex;
+}
+.Feesman Form .div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 8px ;
+}
+.Feesman Form .div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Feesman Form div label{
+    margin-bottom: 5px;
+    margin-left: 8px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.Feesman Form div input{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    height: 35px;
+    text-align: center;
+}
+.Feesman Form div select{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    height: 35px;
+    text-align: center;
+}
+.Feesman Form div option{
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 20px;
+    height: 35px;
+    text-align: center;
+}
+
+.Feesman Form button{
+    font-size: 15px;
+    font-weight: 600;
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    padding-top: 2px;
+    border: none;
+    border-radius: 15px;
+}
+
+.feesdet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px;
+}
+.feesdet h2{
+    margin: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.feesdet table th{
+    border: 1px solid white;
+    width: 200px;
+    height: 40px !important;
+    text-align: center;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.feesdet table td{
+    border: 1px solid white;
+    width: 180px;
+    text-align: center;
+    padding: 7px;
+    height: 40px !important;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
